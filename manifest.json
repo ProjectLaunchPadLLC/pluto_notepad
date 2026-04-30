@@ -1,0 +1,19 @@
+{
+  "name": "pluto_notepad",
+  "version": "0.1.0",
+  "description": "A server-based notebook environment backed by GitHub Gists.",
+  "gists": {
+    "notebooks": {
+      "index": "GIST_ID_INDEX_NOTEBOOK"
+    },
+    "workers": {
+      "base": "GIST_ID_BASE_WORKER",
+      "scheduler": "GIST_ID_SCHEDULER",
+      "example": "GIST_ID_EXAMPLE_WORKER"
+    },
+    "memory": {
+      "vector_store": "GIST_ID_VECTOR_STORE",
+      "memory_log": "GIST_ID_MEMORY_LOG"
+    }
+  }
+}
